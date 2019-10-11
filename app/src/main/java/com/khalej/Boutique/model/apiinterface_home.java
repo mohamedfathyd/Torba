@@ -13,11 +13,11 @@ public interface apiinterface_home {
 
     @FormUrlEncoded
     @POST("montag/boutique/Boutique_login.php")
-    Call<List<contact_userinfo>> getcontacts_login(@Field("phonee") String phone , @Field("passw") String password);
+    Call<List<contact_userinfo>> getcontacts_login(@Field("phonee") String phone , @Field("passw") String password ,@Field("usertype") int user);
     @FormUrlEncoded
     @POST("montag/boutique/Boutique_Registraion.php")
     Call<ResponseBody> getcontacts_newaccount(@Field("name") String name, @Field("password") String password, @Field("address")String address,
-                                              @Field("phone") String phone);
+                                              @Field("phone") String phone ,@Field("usertype") int user);
 
     @FormUrlEncoded
     @POST("montag/boutique/Boutique_Registraion_Tager.php")

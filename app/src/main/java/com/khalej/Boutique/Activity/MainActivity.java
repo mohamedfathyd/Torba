@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
     private SharedPreferences.Editor edt;
     TextView points ,whous,callus,aramix,bared ,myorder ;
     EditText search_bar;
-
+    ImageView logout;
     ImageView search;
     TextView textCartItemCount;
     int mCartItemCount = 10;
@@ -107,6 +107,25 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
            startActivity(new Intent(MainActivity.this,offers.class));
+            }
+        });
+        logout=findViewById(R.id.logout);
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                edt.putInt("id",0);
+                edt.putFloat("totalprice",0);
+                edt.putString("name","");
+                edt.putString("phone","");
+                edt.putString("address","");
+                edt.putString("password","");
+                edt.putString("points","");
+                edt.putString("country","");
+                edt.putString("date", "");
+                edt.putString("remember","");
+                edt.apply();
+                startActivity(new Intent(MainActivity.this,Login.class));
+                finish();
             }
         });
         swtch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {

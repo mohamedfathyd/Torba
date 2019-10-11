@@ -139,7 +139,7 @@ public class Login extends AppCompatActivity {
         String phone=textInputEditTextphone.getText().toString();
         apiinterface= Apiclient_home.getapiClient().create(apiinterface_home.class);
         Call<List<contact_userinfo>> call= apiinterface.getcontacts_login(phone,
-                textInputEditTextpassword.getText().toString());
+                textInputEditTextpassword.getText().toString() , 1);
         call.enqueue(new Callback<List<contact_userinfo>>() {
             @Override
             public void onResponse(Call<List<contact_userinfo>> call, Response<List<contact_userinfo>> response) {

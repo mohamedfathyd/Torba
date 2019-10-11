@@ -31,7 +31,7 @@ public class login_ {
         progressDialog.show();
         apiinterface= Apiclient_home.getapiClient().create(apiinterface_home.class);
         Call<List<contact_userinfo>> call= apiinterface.getcontacts_login(phone,
-               password);
+               password , 1);
         call.enqueue(new Callback<List<contact_userinfo>>() {
             @Override
             public void onResponse(Call<List<contact_userinfo>> call, Response<List<contact_userinfo>> response) {
