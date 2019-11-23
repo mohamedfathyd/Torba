@@ -1,63 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <android.support.v7.widget.CardView
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/card_view"
-    android:layout_margin="20dp"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     card_view:cardPreventCornerOverlap="false"
-
-android:layout_centerInParent="true"
+    card_view:cardCornerRadius="2dp"
+    android:padding="20dp"
+    android:layout_margin="10dp"
+    android:layout_centerHorizontal="true"
+    card_view:cardBackgroundColor="@android:color/transparent"
+    card_view:cardElevation="0dp"
+    android:background="#9933D790"
     >
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_gravity="center"
-        android:layout_height="wrap_content">
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/linear2"
-            android:layout_centerInParent="true"
-            android:orientation="horizontal"
-            android:background="@drawable/sha"
-            >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="160dp"
+            card_view:cardPreventCornerOverlap="false"
+            card_view:cardCornerRadius="2dp"
 
+            android:layout_centerHorizontal="true"
+
+            android:background="@drawable/shape"
+            >
+            <com.khalej.Turba.RoundRectCornerImageView
+                android:id="@+id/photo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="40dp"
+                android:background="#99ffffff"
+                android:layout_marginRight="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo" />
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="140dp"
+            card_view:cardPreventCornerOverlap="false"
+            card_view:cardCornerRadius="2dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+
+            android:background="@drawable/shape"
+            >
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/photo"
-                    android:layout_width="190dp"
-                    android:layout_height="190dp"
-                    android:layout_centerInParent="true"
-                    android:layout_gravity="center"
-                    android:layout_margin="5dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/log" />
-
-
+                android:orientation="vertical"
+                >
                 <TextView
                     android:id="@+id/name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:gravity="center"
+                    android:layout_gravity="center"
                     android:lines="2"
                     android:text="محركات"
-                    android:textColor="#ffffff"
-                    android:textStyle="bold"
-                    android:textSize="24dp" />
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
                 <LinearLayout
                     android:id="@+id/priceLinear"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:gravity="center"
@@ -71,7 +94,7 @@ android:layout_centerInParent="true"
 
                         android:lines="2"
                         android:text="محركات"
-                        android:textColor="#ffffff"
+                        android:textColor="#000000"
                         android:textSize="19dp"
                         android:textStyle="bold" />
                     <TextView
@@ -84,14 +107,12 @@ android:layout_centerInParent="true"
                         android:paddingLeft="10dp"
                         android:lines="2"
                         android:text="السعر :"
-                        android:textColor="#ffffff"
+                        android:textColor="#000000"
                         android:textSize="20dp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
             </LinearLayout>
-
-        </LinearLayout>
-
-    </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
 </android.support.v7.widget.CardView>

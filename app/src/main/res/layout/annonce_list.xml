@@ -12,7 +12,7 @@
 
     card_view:cardBackgroundColor="@android:color/transparent"
     card_view:cardElevation="0dp"
-    android:background="@color/colorPrimary"
+    android:background="#ff0000"
     >
 
     <RelativeLayout
@@ -33,7 +33,7 @@
 
                 android:orientation="vertical">
 
-                <ImageView
+                <com.khalej.Turba.RoundRectCornerImageView
                     android:id="@+id/photo"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -43,7 +43,7 @@
                     android:layout_marginLeft="40dp"
                     android:layout_marginRight="10dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/log" />
+                    android:src="@drawable/logo" />
 
 
 

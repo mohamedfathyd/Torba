@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" >Boutique</string>
+    <string name="app_name" >Torba Market</string>
     <string name="hint_name" >name</string>
     <string name="Register_Tager">Register As tradesman</string>
     <string name="hint_phone" >mobile</string>
@@ -9,22 +9,30 @@
     <string name="myorders" >My orders</string>
     <string name="ask">Are you sure you want to confirm and send this request?</string>
     <string name="addto">Add To Shopping Car</string>
-    <string name="mobile">... Send a transfer receipt to WhatsApp: 971555733305 to complete your purchase</string>
+    <string name="mobile">... Send a transfer receipt to WhatsApp: 0504548897 /0549925444 to complete your purchase</string>
     <string name="success">Your application registration has been successfully registered</string>
     <string name="load">Your request is being registered</string>
     <string name="lang">English</string>
-    <string name="whoustxt"> It is an application for an e-commerce platform that allows UAE merchants to view and sell products. Our motto is always from home to home. </string>
+    <string name="whoustxt"> We are pleased to announce that ..........
+We seek through our new ideas and projects to serve the community in an innovative way that contributes to the quality of life of the individual and society through his daily dealings with his requirements and needs easily and conveniently
+Turbah Electronic Stores App (Shopping and Delivery)
+It is dedicated to the people of Turbah and its environs where it allows shop owners to register as merchants and provide goods to shoppers and we deliver them on their behalf as the application brings shoppers all their needs and requirements and with the push of a button just our customers shopping and purchase in all markets Turbah (supermarkets - pharmacies - restaurants - sweets - perfumery - clothes - Accessories - Mobiles and etc ....) without wasting time and effort in traditional shopping </string>
 
     <string name="name" >name</string>
     <string name="address" >Address</string>
     <string name="phone" >Phone</string>
+    <string name="delegate">Register as a delegate</string>
+    <string name="national_id">National Id</string>
+    <string name="Car_Number">Car Number</string>
+    <string name="Car_type">Car Type</string>
     <string name="listorders" >List Of Orders</string>
     <string name="confirm" >Confirm</string>
     <string name="deletemontag" >Delete Orders</string>
     <string name="login" >Login</string>
     <string name="ignore" >Skip</string>
     <string name="date" >birth date </string>
-
+    <string name="CommercialRecord">Commercial Record</string>
+    <string name="mahalname">Shop Name</string>
     <string name="password" >Password</string>
     <string name="allmoney" >Cost</string>
     <string name="hint_address" >Email</string>
@@ -77,7 +85,25 @@ Purchase Terms:
     </string>
     <string-array name="account_num">
         <item>
-            UAE
+           حراج منوع
+           </item>
+        <item>
+           حراج عقارات
+           </item>
+        <item>
+           حراج مواشي
+           </item>
+        <item>
+           حراج أثاث
+           </item>
+        <item>
+           حراج جوالات
+           </item>
+        <item>
+           حراج ألكترونيات
+           </item>
+        <item>
+           حراج سيارات
            </item>
         <!--<item>-->
         <!--السعودية-->

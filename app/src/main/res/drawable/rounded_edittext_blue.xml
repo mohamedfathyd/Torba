@@ -4,9 +4,7 @@
     android:layout_height="wrap_content"
     >
 
-    <solid  android:startColor="#d592ef"
-        android:centerColor="#ab98d8"
-        android:endColor="#68a1b4"
+    <solid  android:color="#673AB7"
 
 
         />

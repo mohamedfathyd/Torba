@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layoutDirection="ltr"
-    android:background="@drawable/backa"
-    tools:context="com.khalej.Boutique.Activity.Whous">
+    android:background="@drawable/backk"
+    tools:context="com.khalej.Turba.Activity.Whous">
 
     <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:local="http://schemas.android.com/apk/res-auto"
@@ -37,16 +37,25 @@
     android:layout_below="@id/app_bar"
     android:layout_margin="30dp"
     android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:padding="20dp"
+        android:padding="5dp"
+        android:scrollbars="vertical"
 
      android:text="@string/whoustxt"
         android:textColor="#000000"
-        android:textSize="22dp"
-        android:layout_centerInParent="true"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/s"
         android:textStyle="normal" />
 
 
@@ -54,9 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
+       android:layout_below="@+id/s"
         >
         <ImageView
             android:layout_width="80dp"
@@ -66,14 +73,9 @@
             android:id="@+id/tw"
             />
 
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:id="@+id/insta"
-            android:padding="5dp"
 
-            android:background="@drawable/instagram"
-            />
     </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>
 </RelativeLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.khalej.Boutique">
+    package="com.khalej.Turba">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -11,17 +11,23 @@
         android:name=".application"
         android:allowBackup="true"
         android:hardwareAccelerated="false"
-        android:icon="@drawable/log"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:largeHeap="true"
-        android:roundIcon="@drawable/log"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Activity.Register_tager"></activity>
+        <activity android:name=".Activity.Add_second_category_tager"></activity>
+        <activity android:name=".Activity.Category" />
+        <activity android:name=".Activity.General_Category" />
+        <activity android:name=".Activity.MainAdmin" />
+        <activity android:name=".Activity.Register_tager" />
+        <activity android:name=".Activity.Register_mandop" />
         <activity android:name=".Activity.Show_offer" />
         <activity android:name=".Activity.offers" />
         <activity android:name=".Activity.Shrot" />
+        <activity android:name=".Activity.Shrott" />
         <activity android:name=".Activity.Search_Activity" />
         <activity android:name=".Activity.Order_detail" />
         <activity android:name=".Activity.Orders" />

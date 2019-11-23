@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99ffffff"
+
+    android:layoutDirection="ltr"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:local="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            local:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:text="أضافة اعلان حراج"
+                android:layout_gravity="center"
+                android:id="@+id/toolbar_title" />
+        </android.support.v7.widget.Toolbar>
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/app_bar"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/download"
+            android:id="@+id/image"
+            />
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_below="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="@drawable/rounded_edittext"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:gravity="center"
+
+                >
+                <Spinner
+                    android:id="@+id/spin"
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:entries="@array/account_num"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView"
+
+                    android:layout_gravity="center"
+
+                    android:layout_centerHorizontal="true"/>
+            </LinearLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginTop="20dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textInputEditTextName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="اسم المنتج"
+                    android:inputType="text"
+                    android:maxLines="1"
+
+                    android:textColor="@color/colora" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginTop="20dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textInputEditTextLink"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="السعر"
+
+                    android:inputType="numberDecimal"
+
+
+
+                    android:textColor="@color/colora" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginTop="20dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textInputEditTexttext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" تفاصيل الاعلان ورقم هاتفك"
+
+                    android:layout_marginTop="10dp"
+                    android:inputType="textMultiLine"
+                    android:textColor="@color/colora" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginTop="20dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textInputEditTexttager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="اسم صاحب الاعلان"
+
+                    android:layout_marginTop="10dp"
+                    android:inputType="textMultiLine"
+                    android:textColor="@color/colora" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/appCompatButtonRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/shape2"
+                android:textColor="#ffffff"
+                android:text="أضافة الاعلان" />
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+    </RelativeLayout>
+    </ScrollView>
+</android.support.v4.widget.NestedScrollView>

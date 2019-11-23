@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">المتجر</string>
+    <string name="app_name">متاجر تربه</string>
     <string name="hint_name">الأسم</string>
     <string name="Register_Tager">التسجيل كتاجر</string>
     <string name="hint_phone">رقم الجوال</string>
@@ -7,14 +7,21 @@
     <string name="callus">اتصل بنا</string>
     <string name="myorders">طلباتي</string>
     <string name="addto">إضافة الى سلة المشتريات</string>
-    <string name="whoustxt">عبارة عن تطبيق لمنصة للتجارة الإلكترونية التي تتيح للتاجرات الاماراتيات عرض وبيع المنتجات، كما يتيح للأفراد شراء مجموعة متنوعة من المنتجات و يسهل التعامل معهن عن طريق تطبيقنا وهدفنا هو دعم هذه الكوادر الاماراتية ومساعدتها لنشر وتوصيل منتجاتهن. شعارنا دائما من البيت الي البيت .  </string>
+    <string name="whoustxt">مؤسسة تجارية سعودية في طور الإنشاء بأفكار تسويقية جديدة ..نسعى من خلال افكارنا ومشاريعنا الجديدة ان نقوم بخدمة المجتمع بطريقة مبتكرة تسهم في جودة الحياة للفرد والمجتمع من خلال تعاملاته اليومية مع متطلباته واحتياجاته بسهولة ويسر وتوفير
+متاجر تربة الالكترونية تطبيق (تسوق وتوصيل)
+وهو مخصص لأهالي تربه وضواحيها حيث يتيح لأصحاب المحلات التسجيل كتجار وتوفير السلع للمتسوقين ونحن نقوم بإيصالها نيابة عنهم حيث أن التطبيق يجمع للمتسوقين كل احتياجاتهم ومتطلباتهم وبضغطة زر فقط يقوم عميلنا بالتسوق والشراء في جميع اسواق تربه ( سوبرماكات - صيدليات - مطاعم - حلويات - عطارة - ملابس - اكسسوارت - جوالات والخ.... ) بدون ضياع الوقت والجهد  في التسوق التقليدي
+مع امكانية الاستفادة من التطبيق لاصحاب المحلات والمتاجر بعد التسجيل كتاجر من عمل دعاية لمنتجاته و عروضه ليتمكن من ايصالها لأكبر عدد ممكن من المستهلكين حيث يخدمه التطبيق في بث رسائل دعائية نصية لكل جوال محمل عليه التطبيق وبنرات واجهه التطبيق لظهورها للمتسوقين . </string>
     <string name="name">الاسم</string>
     <string name="address">العنوان</string>
     <string name="phone">رقم الجوال</string>
+    <string name="delegate">التسجيل كامندوب</string>
+    <string name="national_id">الهوية الوطنية</string>
+    <string name="Car_Number">رقم لوحة المركبة</string>
+    <string name="Car_type">نوع المركبة</string>
     <string name="ask">هل انت متأكد انك تريد تأكيد هذا الطلب وارساله؟</string>
     <string name="load">جاري تسجيل طلبك</string>
     <string name="details">عليك تحويل المبلغ على الحساب السابق او الدفع عند الاستلام</string>
-    <string name="mobile">... وارسال ايصال التحويل الى الواتس آب هذا :  971555733305   لأتمام عملية الشراء</string>
+    <string name="mobile">... وارسال ايصال التحويل الى الواتس آب هذا :  0504548897 /0549925444   لأتمام عملية الشراء</string>
     <string name="listorders">قائمة طلباتك المحدده</string>
     <string name="confirm">تأكيد</string>
     <string name="deletemontag">مسح المنتاجات</string>
@@ -33,9 +40,11 @@
     <string name="hint_password">كلمة المرور</string>
     <string name="hint_confirm_password">تأكيد كلمة المرور</string>
     <string name="text_login">تسجيل الدخول</string>
-    <string name="text_register">انشاء حساب</string>
+    <string name="text_register">الموافقة على الشروط والتسجيل </string>
     <string name="terms">الشروط والأحكام</string>
     <string name="text_not_member">أنشاء حساب</string>
+    <string name="CommercialRecord">سجل تجاري</string>
+    <string name="mahalname">اسم المحل </string>
     <string name="sh">
         الهدف من التطبيق :
 1-	التجول في بيئة إلكترونية سهلة تسمح للأسر المنتجة و تسمح للأعمال بالنمو و الازدهار ..
@@ -81,7 +90,25 @@
 </string>
     <string-array name="account_num">
         <item>
-            الامارات
+           حراج منوع
+           </item>
+        <item>
+           حراج عقارات
+           </item>
+        <item>
+           حراج مواشي
+           </item>
+        <item>
+           حراج أثاث
+           </item>
+        <item>
+           حراج جوالات
+           </item>
+        <item>
+           حراج ألكترونيات
+           </item>
+        <item>
+           حراج سيارات
            </item>
         <!--<item>-->
         <!--السعودية-->

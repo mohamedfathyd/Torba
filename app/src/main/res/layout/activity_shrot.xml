@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nestedScrollView"
     android:layout_width="match_parent"
-    android:background="@drawable/backk"
+    android:background="#293654"
     android:layout_height="match_parent"
   >
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -13,7 +13,7 @@
     android:layout_width="match_parent"
 
     android:layout_height="match_parent"
-    tools:context="com.khalej.Boutique.Activity.Shrot">
+    tools:context="com.khalej.Turba.Activity.Shrot">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,9 +31,9 @@
     android:layout_height="wrap_content"
      android:layout_marginTop="15dp"
     android:layout_margin="10dp"
-    android:textSize="17dp"
-
-    android:layout_below="@+id/a"
+    android:textSize="18dp"
+    android:textColor="#ffffff"
+     android:layout_below="@+id/a"
     android:id="@+id/b"
   />
     <TextView

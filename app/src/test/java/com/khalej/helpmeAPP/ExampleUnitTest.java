@@ -1,4 +1,4 @@
-package com.khalej.Boutique;
+package com.khalej.Turba;
 
 import org.junit.Test;
 

@@ -10,7 +10,12 @@
     android:paddingLeft="20dp"
     android:paddingRight="20dp"
     android:paddingTop="20dp">
-
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <android.support.v7.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:padding="10dp"
@@ -23,7 +28,7 @@
             android:layout_height="120dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
-            android:src="@drawable/log" />
+            android:src="@drawable/logo" />
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/textInputLayoutName"
@@ -85,6 +90,38 @@
                 android:textColor="@color/colorAccent" />
         </android.support.design.widget.TextInputLayout>
 
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutmahalname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:layout_marginTop="20dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextmahalname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mahalname"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@color/colorAccent" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutsegel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:layout_marginTop="20dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextsegel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/CommercialRecord"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@color/colorAccent" />
+        </android.support.design.widget.TextInputLayout>
 
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/appCompatButtonRegister"
@@ -99,4 +136,6 @@
 
 
     </android.support.v7.widget.LinearLayoutCompat>
+    </ScrollView>
+    </RelativeLayout>
 </android.support.v4.widget.NestedScrollView>

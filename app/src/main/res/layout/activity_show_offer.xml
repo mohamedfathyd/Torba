@@ -2,13 +2,13 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/backk"
     android:layout_height="match_parent">
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/backk"
+        android:background="#99ffffff"
         android:orientation="vertical">
         <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:local="http://schemas.android.com/apk/res-auto"
@@ -33,10 +33,10 @@
         </android.support.v7.widget.Toolbar>
         <RelativeLayout
             android:layout_width="match_parent"
-            android:background="@color/colorPrimaryDark"
+            android:background="@color/colorAccent"
             android:layout_height="wrap_content">
             <LinearLayout
-                android:background="@color/colorPrimaryDark"
+                android:background="@color/colorAccent"
                 android:layout_width="match_parent"
                 android:layout_height="260dp"
                 android:orientation="vertical">
@@ -45,7 +45,7 @@
                     android:layout_width="350dp"
                     android:background="@drawable/shape"
                     android:layout_height="150dp"
-                    android:src="@drawable/log"
+                    android:src="@drawable/logo"
                     app:reverseLayout="true"
                     android:layout_marginTop="10dp"
                     android:orientation="horizontal"
@@ -85,7 +85,7 @@
                         android:id="@+id/remove"
                         android:paddingRight="20dp"
                         android:paddingLeft="20dp"
-                        android:background="@color/colorPrimaryDark"
+                        android:background="@color/colorAccent"
                         android:textSize="30dp"
                         android:textStyle="bold"
                         android:textColor="#ffffff"
@@ -100,7 +100,7 @@
 
                         android:textSize="30dp"
                         android:textStyle="bold"
-                        android:textColor="#000000"
+                        android:textColor="#ffffff"
                         />
 
                     <TextView
@@ -110,7 +110,7 @@
                         android:id="@+id/add"
                         android:paddingRight="20dp"
                         android:paddingLeft="20dp"
-                        android:background="@color/colorPrimaryDark"
+                        android:background="@color/colorAccent"
                         android:textSize="30dp"
                         android:textStyle="bold"
                         android:textColor="#ffffff"

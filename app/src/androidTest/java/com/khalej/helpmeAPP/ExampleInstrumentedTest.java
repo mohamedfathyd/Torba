@@ -1,4 +1,4 @@
-package com.khalej.Boutique;
+package com.khalej.Turba;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

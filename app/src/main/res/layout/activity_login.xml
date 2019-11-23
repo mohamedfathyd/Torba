@@ -24,13 +24,14 @@
             android:layout_height="140dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="40dp"
-            android:src="@drawable/log" />
+            android:src="@drawable/logo" />
         <Switch
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/lang"
             android:id="@+id/swtch"
             />
+
         <LinearLayout
             android:layout_width="match_parent"
 
@@ -77,13 +78,28 @@
 
                 android:textColor="#000000" />
         </android.support.design.widget.TextInputLayout>
-
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms"
+            android:gravity="center"
+            android:id="@+id/terms"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"
+    android:orientation="horizontal"
+    android:layout_marginTop="40dp"
+    >
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/appCompatButtonLogin"
-            android:layout_width="200dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_gravity="center"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
 
             android:textColor="#ffffff"
             android:background="@drawable/shape2"
@@ -92,21 +108,21 @@
 
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/textViewLinkRegister"
-            android:layout_width="200dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-
             android:gravity="center"
             android:layout_gravity="center"
-            android:background="@drawable/shape2"
+            android:background="@drawable/shape4"
 
             android:textColor="#ffffff"
 
             android:text="@string/text_not_member"
            />
+</LinearLayout>
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/appCompatButtonbb"
-            android:layout_width="100dp"
+            android:layout_width="wrap_content"
 
             android:layout_gravity="center"
             android:layout_height="wrap_content"
@@ -114,7 +130,7 @@
 
             android:textColor="#ffffff"
             android:background="@drawable/shape3"
-            android:text="@string/ignore" />
+            android:text="@string/delegate" />
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/appCompatButtonbre"
             android:layout_width="wrap_content"
